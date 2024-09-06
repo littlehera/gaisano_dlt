@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-06 17:38:41.586391",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "connection_settings_section",
+  "source_settings_column",
+  "source_host",
+  "source_username",
+  "source_password",
+  "source_database",
+  "destination_settings_column",
+  "destination_host",
+  "destination_username",
+  "destination_password",
+  "destination_database",
+  "tables_to_sync_section",
+  "get_tables",
+  "sync_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "connection_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Connection Settings"
+  },
+  {
+   "fieldname": "source_settings_column",
+   "fieldtype": "Column Break",
+   "label": "Source Settings"
+  },
+  {
+   "fieldname": "source_host",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Host",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_database",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Database Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "destination_settings_column",
+   "fieldtype": "Column Break",
+   "label": "Destination Settings"
+  },
+  {
+   "fieldname": "destination_host",
+   "fieldtype": "Data",
+   "label": "Host",
+   "reqd": 1
+  },
+  {
+   "fieldname": "destination_username",
+   "fieldtype": "Data",
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "destination_password",
+   "fieldtype": "Password",
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "destination_database",
+   "fieldtype": "Data",
+   "label": "Database Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tables_to_sync_section",
+   "fieldtype": "Section Break",
+   "label": "Tables to Sync"
+  },
+  {
+   "fieldname": "sync_table",
+   "fieldtype": "Table",
+   "options": "Sync Table"
+  },
+  {
+   "fieldname": "get_tables",
+   "fieldtype": "Button",
+   "label": "Get Tables from Source Database"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-06 18:02:29.497677",
+ "modified_by": "Administrator",
+ "module": "Gaisano Data Load Tool",
+ "name": "Data Pipeline",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
