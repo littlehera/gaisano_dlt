@@ -1,0 +1,4 @@
+frappe
+pyodbc
+pymysql
+clickhouse-connect

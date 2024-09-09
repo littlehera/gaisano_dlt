@@ -11,11 +11,15 @@
   "source_username",
   "source_password",
   "source_database",
+  "source_port",
+  "source_test_conn",
   "destination_settings_column",
   "destination_host",
   "destination_username",
   "destination_password",
   "destination_database",
+  "destination_port",
+  "destination_test_conn",
   "tables_to_sync_section",
   "get_tables",
   "sync_table"
@@ -102,11 +106,33 @@
    "fieldname": "get_tables",
    "fieldtype": "Button",
    "label": "Get Tables from Source Database"
+  },
+  {
+   "fieldname": "source_port",
+   "fieldtype": "Int",
+   "label": "Port",
+   "reqd": 1
+  },
+  {
+   "fieldname": "destination_port",
+   "fieldtype": "Int",
+   "label": "Port",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_test_conn",
+   "fieldtype": "Button",
+   "label": "Test Connection"
+  },
+  {
+   "fieldname": "destination_test_conn",
+   "fieldtype": "Button",
+   "label": "Test Connection"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-06 18:02:29.497677",
+ "modified": "2024-09-09 16:20:57.059309",
  "modified_by": "Administrator",
  "module": "Gaisano Data Load Tool",
  "name": "Data Pipeline",

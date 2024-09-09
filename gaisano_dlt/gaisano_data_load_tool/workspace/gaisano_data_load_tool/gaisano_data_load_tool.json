@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"oralbHDhb6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gaisano Data Load Tool</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"oralbHDhb6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gaisano Data Load Tool</span>\",\"col\":12}},{\"id\":\"20OKxQCko4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Setup Data Pipeline Connections\",\"col\":4}}]",
  "creation": "2024-09-06 17:32:28.228505",
  "custom_blocks": [],
  "docstatus": 0,
@@ -8,12 +8,12 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "upload-lg",
- "idx": 0,
+ "idx": 1,
  "indicator_color": "blue",
  "is_hidden": 0,
  "label": "Gaisano Data Load Tool",
  "links": [],
- "modified": "2024-09-06 17:33:17.281425",
+ "modified": "2024-09-09 16:16:42.796352",
  "modified_by": "Administrator",
  "module": "Gaisano Data Load Tool",
  "name": "Gaisano Data Load Tool",
@@ -24,6 +24,15 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 6.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Setup Data Pipeline Connections",
+   "link_to": "Data Pipeline",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Gaisano Data Load Tool"
 }
